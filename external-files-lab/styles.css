@@ -1,7 +1,12 @@
-<style>
   h1 {
     color: blue;
     text-decoration: underline;
   }
-  
-  </style>
+
+  .large-text {
+    font-size: 60px;
+  }
+
+  #slogan-text {
+    color:red;
+  }
