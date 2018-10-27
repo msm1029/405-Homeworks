@@ -1,0 +1,84 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+  /*General page styles*/
+}
+body {
+  /*Selector1:Ones Selector2:Ones Selector3:Tens Selector4:Thousand*/
+}
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+/* Selectors to be matched up with rulesets */
+
+.card article img
+.card footer
+.card header
+.card body
+
+/* Rulesets to be matched up with selectors */
+
+body {
+  /*Card container styles*/
+}
+
+.card body{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+body {
+  /*Header and footer styles*/
+}
+
+.card header{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card footer{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+
+body {
+  /*Business card contents styles*/
+}
+
+.card article img{
+  max-height: 100%;
+  float: right;
+}
+
+.card header, footer{
+  height: 3.125em;
+  padding: .0625em;
+}
+
+.card h2, p{
+  margin: 0;
+}
+
+.card article{
+  height: 7.5em;
+}
+
+.card h2{
+  height: 1.25px;
+}
+
+.card p{
+  height: .938em;
+}

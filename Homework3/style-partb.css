@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+    width: 200px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+p{
+  font size: 1.125rem;
+}
+div {
+  background-color: red;
+}
+p {
+    text-shadow: 2px 2px #ff0000;
+    text-decoration-color: red
+}
+div {
+    border: 2px solid red;
+    border-radius: 10px;
+div {
+  box-shadow: 10px 5px 5px black;
+}
