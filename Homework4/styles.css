@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   Margin: 0;
 }
@@ -17,7 +17,7 @@ html {
 .container {
   width: 800px;
   height: 100vh;
-  background-color: black;
+  background-color: white;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -26,11 +26,11 @@ html {
 
 .nav {
   flex: 0 0 50px;
-  background-color: black;
+  background-color: white;
 }
 
 .content {
-  background-color: blue;
+  background-color: white;
   flex: 1;
   display: flex;
 }
@@ -73,6 +73,7 @@ html {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 70vh;
 }
 
 
@@ -82,13 +83,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 
 .nav-list {
   list-style-type: none;
-  background-color: black;
+  background-color: white;
   height: 100%;
   display: flex;
 }
